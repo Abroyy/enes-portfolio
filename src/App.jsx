@@ -194,20 +194,20 @@ const profile = {
   name: "Enes Aba",
   role: "Unity Game Developer",
   tagline:
-    "Mobil oyunlarda prototipten store yayınlamaya kadar tüm ürünü taşıyan, sistem tasarımı ve shipping tarafında güçlü geliştirici.",
+    "Mobil oyunlarda prototipten yayınlama sürecine kadar tüm ürünü taşıyan, sistem tasarımı ve shipping tarafında güçlü bir geliştiriciyim.",
   shortBio:
     "5-6 yıldır profesyonel olarak Unity ile oyun geliştiriyorum. Bugüne kadar farklı türlerde onlarca oyun ve prototip ürettim. Çalışırken sadece mekaniklere değil; güvenli altyapıya, oyuncu akışına, ölçeklenebilir sisteme, mağaza yayın süreçlerine ve ürünün uzun ömürlü olmasına birlikte odaklanıyorum.",
   longBio:
     "Benim için iyi bir oyun sadece çalışan bir prototype değildir. Hissi doğru veren, teknik olarak güvenilir, içerik eklenebilir, mağazaya çıkmaya hazır ve yayın sonrası da yönetilebilir olan üründür. Bu yüzden projelerde gameplay, meta progression, UI akışı, Firebase / PlayFab gibi servisler, IAP güvenliği, analytics, localization, build pipeline ve store compliance taraflarını birlikte ele alıyorum.",
   craftNote:
     "Özellikle piyasada daha az kişinin gerçekten iyi bildiği Unity LevelPlay + PlayFab BaaS entegrasyonu, güvenli fatura doğrulama, store release hazırlığı ve modüler sistem tasarımı taraflarında güçlü hissediyorum. Ayrıca yapay zeka destekli çalışma düzenim sayesinde bir kişinin bir ayda çıkartacağı prototipi 1-2 haftada ayağa kaldırabildiğim oluyor.",
-  email: "enes@example.com",
-  github: "https://github.com/yourusername",
-  linkedin: "https://www.linkedin.com/in/yourusername",
+  email: "enesaba.dev@gmail.com",
+  github: "https://github.com/Abroyy",
+  linkedin: "https://www.linkedin.com/in/enes-aba-944b9a297/",
   resume: "#",
   heroStats: [
     { label: "Deneyim", value: "5+ yıl" },
-    { label: "Yayınlanan oyun", value: "5" },
+    { label: "Tamamlanan oyun", value: "10+" },
     { label: "Shipping", value: "Google Play + App Store" },
   ],
 };
@@ -215,16 +215,15 @@ const profile = {
 const favoriteGenres = [
   "MOBA hissi taşıyan skill / VFX odaklı savaş oyunları",
   "FPS oyunları",
-  "Idle arcade",
+  "Idle Arcade",
   "Strategy ve strategy-lite oyunlar",
   "Simulation / Tycoon",
-  "Educational Games",
 ];
 
 const capabilities = [
   "Unity ile tam ürün geliştirme",
   "Gameplay, progression ve economy sistemi kurma",
-  "Firebase Auth, Analytics ve servis entegrasyonları",
+  "Firebase Auth, Analytics ve Servis entegrasyonları",
   "PlayFab BaaS ve oyuncu verisi mimarisi",
   "Unity LevelPlay ile çoklu reklam ağı entegrasyonu",
   "Güvenli IAP ve PlayFab invoice validation",
@@ -331,7 +330,7 @@ const publishedProjects = [
   },
   {
     title: "HeyPungi",
-    role: "Systems & Mini-Game Developer",
+    role: "Game Developer",
     genre: "Kids Education / Mini-Game Platform",
     year: "2025",
     coverGradient: "from-fuchsia-400/20 via-amber-300/10 to-cyan-300/15",
