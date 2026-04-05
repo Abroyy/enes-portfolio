@@ -201,7 +201,7 @@ const profile = {
     "Benim için iyi bir oyun sadece çalışan bir prototype değildir. Hissi doğru veren, teknik olarak güvenilir, içerik eklenebilir, mağazaya çıkmaya hazır ve yayın sonrası da yönetilebilir olan üründür. Bu yüzden projelerde gameplay, meta progression, UI akışı, Firebase / PlayFab gibi servisler, IAP güvenliği, analytics, localization, build pipeline ve store compliance taraflarını birlikte ele alıyorum.",
   craftNote:
     "Özellikle piyasada daha az kişinin gerçekten iyi bildiği Unity LevelPlay + PlayFab BaaS entegrasyonu, güvenli fatura doğrulama, store release hazırlığı ve modüler sistem tasarımı taraflarında güçlü hissediyorum. Ayrıca yapay zeka destekli çalışma düzenim sayesinde bir kişinin bir ayda çıkartacağı prototipi 1-2 haftada ayağa kaldırabildiğim oluyor.",
-  email: "enes@example.com",
+  email: "enesaba.dev@gmail.com",
   github: "https://github.com/Abroyy",
   linkedin: "https://www.linkedin.com/in/enes-aba-944b9a297/",
   resume: "/cv.pdf",
