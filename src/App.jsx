@@ -194,17 +194,17 @@ const profile = {
   name: "Enes Aba",
   role: "Unity Game Developer",
   tagline:
-    "Mobil oyunlarda prototipten yayınlama sürecine kadar tüm ürünü taşıyan, sistem tasarımı ve shipping tarafında güçlü bir geliştiriciyim.",
+    "Mobil oyunlarda prototipten store yayınlamaya kadar tüm ürünü taşıyan, sistem tasarımı ve shipping tarafında güçlü geliştirici.",
   shortBio:
     "5-6 yıldır profesyonel olarak Unity ile oyun geliştiriyorum. Bugüne kadar farklı türlerde onlarca oyun ve prototip ürettim. Çalışırken sadece mekaniklere değil; güvenli altyapıya, oyuncu akışına, ölçeklenebilir sisteme, mağaza yayın süreçlerine ve ürünün uzun ömürlü olmasına birlikte odaklanıyorum.",
   longBio:
     "Benim için iyi bir oyun sadece çalışan bir prototype değildir. Hissi doğru veren, teknik olarak güvenilir, içerik eklenebilir, mağazaya çıkmaya hazır ve yayın sonrası da yönetilebilir olan üründür. Bu yüzden projelerde gameplay, meta progression, UI akışı, Firebase / PlayFab gibi servisler, IAP güvenliği, analytics, localization, build pipeline ve store compliance taraflarını birlikte ele alıyorum.",
   craftNote:
     "Özellikle piyasada daha az kişinin gerçekten iyi bildiği Unity LevelPlay + PlayFab BaaS entegrasyonu, güvenli fatura doğrulama, store release hazırlığı ve modüler sistem tasarımı taraflarında güçlü hissediyorum. Ayrıca yapay zeka destekli çalışma düzenim sayesinde bir kişinin bir ayda çıkartacağı prototipi 1-2 haftada ayağa kaldırabildiğim oluyor.",
-  email: "enesaba.dev@gmail.com",
+  email: "enes@example.com",
   github: "https://github.com/Abroyy",
   linkedin: "https://www.linkedin.com/in/enes-aba-944b9a297/",
-  resume: "#",
+  resume: "/cv.pdf",
   heroStats: [
     { label: "Deneyim", value: "5+ yıl" },
     { label: "Tamamlanan oyun", value: "10+" },
@@ -215,15 +215,16 @@ const profile = {
 const favoriteGenres = [
   "MOBA hissi taşıyan skill / VFX odaklı savaş oyunları",
   "FPS oyunları",
-  "Idle Arcade",
+  "Idle arcade",
   "Strategy ve strategy-lite oyunlar",
   "Simulation / Tycoon",
+  "Educational Games",
 ];
 
 const capabilities = [
   "Unity ile tam ürün geliştirme",
   "Gameplay, progression ve economy sistemi kurma",
-  "Firebase Auth, Analytics ve Servis entegrasyonları",
+  "Firebase Auth, Analytics ve servis entegrasyonları",
   "PlayFab BaaS ve oyuncu verisi mimarisi",
   "Unity LevelPlay ile çoklu reklam ağı entegrasyonu",
   "Güvenli IAP ve PlayFab invoice validation",
@@ -273,8 +274,8 @@ const publishedProjects = [
   {
     title: "King of Trivia",
     role: "Lead Game Developer",
-    genre: "Trivia / Strategy Layer / Mobile",
-    year: "2025",
+    genre: "Trivia / Strategy",
+    year: "2026",
     coverGradient: "from-cyan-500/25 via-sky-400/10 to-violet-500/20",
     description:
       "Quiz oyun yapısını dünya haritası üzerinde fetih, shop, inventory, talent tree ve leaderboard gibi sistemlerle güçlendiren canlı ürün yaklaşımıyla geliştirilen mobil oyun.",
@@ -297,15 +298,15 @@ const publishedProjects = [
     ],
     playable: {
       type: "placeholder",
-      title: "Case study / screenshots eklenecek",
-      note: "Bu proje için store linkleri hazır. Sonraki adımda gerçek ekran görüntüleri ve case study eklenebilir.",
+      title: "Ekran Görüntüleri",
+      note: "Ekran görüntüleri...",
     },
   },
   {
     title: "Maze Escape",
     role: "Solo Game Developer",
     genre: "Action / Maze / Progression",
-    year: "2025",
+    year: "2024",
     coverGradient: "from-emerald-400/20 via-cyan-400/10 to-slate-300/10",
     description:
       "Procedural level üretimi, düşman navigasyonu, loot ve güçlenme sistemleriyle ilerleyen aksiyon odaklı mobil oyun.",
@@ -324,15 +325,15 @@ const publishedProjects = [
     ],
     playable: {
       type: "placeholder",
-      title: "Store case study alanı",
-      note: "Bu projeye gameplay GIF veya kısa oynanış videosu eklemek çok iyi olur.",
+      title: "Gameplay",
+      note: "Gameplay Video...",
     },
   },
   {
     title: "HeyPungi",
-    role: "Game Developer",
+    role: "Systems & Mini-Game Developer",
     genre: "Kids Education / Mini-Game Platform",
-    year: "2025",
+    year: "2024",
     coverGradient: "from-fuchsia-400/20 via-amber-300/10 to-cyan-300/15",
     description:
       "Yayınlanmış çocuk eğitim platformuna sonradan mini oyunlar ekleyip mevcut sistemleri modüler hale getirerek bakım ve genişletmeyi kolaylaştırdığım proje.",
@@ -349,8 +350,8 @@ const publishedProjects = [
     ],
     playable: {
       type: "placeholder",
-      title: "Mini-game breakdown eklenecek",
-      note: "Bu projede sonradan eklediğin mini oyunları ayrı breakdown kartları olarak göstermek etkili olur.",
+      title: "Mini Games",
+      note: "Projeler...",
     },
   },
   {
@@ -373,8 +374,8 @@ const publishedProjects = [
     links: [],
     playable: {
       type: "placeholder",
-      title: "Case study / product page hazırlanacak",
-      note: "Bu proje portfolyoda en güçlü anlatı alanlarından biri olabilir; ileride özel sayfa açılması mantıklı.",
+      title: "Ekran Görüntüleri",
+      note: "Ekran görüntüleri...",
     },
   },
   {
@@ -396,8 +397,8 @@ const publishedProjects = [
     links: [],
     playable: {
       type: "placeholder",
-      title: "Tycoon systems showcase hazırlanacak",
-      note: "Bu proje için bina zinciri, worker akışı ve economy progression gösteren görsel bir case study çok güçlü durur.",
+      title: "Case",
+      note: "...",
     },
   },
 ];
@@ -491,9 +492,9 @@ function runSanityChecks() {
   assert(publishedProjects.length >= 5, "publishedProjects en az 5 öğe içermeli.");
   assert(technicalUseCases.length >= 6, "technicalUseCases yeterli sayıda öğe içermeli.");
   assert(process.length >= 4, "process en az 4 adım içermeli.");
-  assert(isValidUrlLike(profile.github), "https://github.com/Abroyy");
-  assert(isValidUrlLike(profile.linkedin), "https://www.linkedin.com/in/enes-aba-944b9a297/");
-  assert(profile.email.includes("@"), "enesaba.dev@gmail.com");
+  assert(isValidUrlLike(profile.github), "GitHub linki gerekli.");
+  assert(isValidUrlLike(profile.linkedin), "LinkedIn linki gerekli.");
+  assert(profile.email.includes("@"), "Geçerli bir email tanımlanmalı.");
   assert(Boolean(profile.longBio), "profile.longBio gerekli.");
   assert(Boolean(profile.craftNote), "profile.craftNote gerekli.");
   assert(Boolean(theme.surface), "surface theme gerekli.");
@@ -557,15 +558,15 @@ function GlassCard({ className = "", children }) {
 
 function ProjectCover({ project, large = false }) {
   return (
-    <div className={`relative overflow-hidden ${large ? "aspect-[4/5]" : "aspect-[16/10]"}`}>
+    <div className={`relative overflow-hidden ${large ? "aspect-[4/5] sm:aspect-[16/12] lg:aspect-[4/5]" : "aspect-[16/10]"}`}>
       <div className={`absolute inset-0 bg-gradient-to-br ${project.coverGradient}`} />
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.12),transparent_24%),radial-gradient(circle_at_bottom_left,rgba(255,255,255,0.08),transparent_30%)]" />
       <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(4,10,20,0)_10%,rgba(4,10,20,0.2)_50%,rgba(4,10,20,0.82)_100%)]" />
-      <div className="absolute left-5 top-5 rounded-full border border-white/15 bg-white/10 px-3 py-1 text-xs text-cyan-100 backdrop-blur-xl">
+      <div className="absolute left-4 top-4 rounded-full border border-white/15 bg-white/10 px-3 py-1 text-[11px] text-cyan-100 backdrop-blur-xl sm:left-5 sm:top-5 sm:text-xs">
         {project.role}
       </div>
-      <div className="absolute bottom-0 left-0 right-0 p-6">
-        <div className="text-2xl font-semibold text-white">{project.title}</div>
+      <div className="absolute bottom-0 left-0 right-0 p-5 sm:p-6">
+        <div className="text-xl font-semibold text-white sm:text-2xl">{project.title}</div>
         <div className="mt-2 text-sm text-slate-200/80">{project.genre}</div>
       </div>
     </div>
@@ -574,9 +575,9 @@ function ProjectCover({ project, large = false }) {
 
 function PlayablePreview({ project }) {
   return (
-    <div className="flex h-full min-h-[360px] flex-col items-center justify-center gap-4 bg-[#050914] p-8 text-center">
-      <div className={`h-28 w-28 rounded-[28px] bg-gradient-to-br ${project.coverGradient} shadow-[0_12px_50px_rgba(56,189,248,0.15)]`} />
-      <div className="text-2xl font-semibold text-white">{project.playable.title}</div>
+    <div className="flex h-full min-h-[320px] flex-col items-center justify-center gap-4 bg-[#050914] p-6 text-center sm:min-h-[360px] sm:p-8">
+      <div className={`h-24 w-24 rounded-[24px] bg-gradient-to-br ${project.coverGradient} shadow-[0_12px_50px_rgba(56,189,248,0.15)] sm:h-28 sm:w-28 sm:rounded-[28px]`} />
+      <div className="text-xl font-semibold text-white sm:text-2xl">{project.playable.title}</div>
       <p className="max-w-xl text-sm leading-7 text-slate-300/78">{project.playable.note}</p>
       {project.links.length > 0 ? (
         <div className="flex flex-wrap justify-center gap-3 pt-2">
@@ -598,13 +599,35 @@ function PlayablePreview({ project }) {
   );
 }
 
+function MobileDock() {
+  return (
+    <div className="fixed inset-x-0 bottom-4 z-50 px-4 md:hidden">
+      <div className="mx-auto flex max-w-md items-center justify-between rounded-[22px] border border-white/10 bg-[#091427]/90 p-2 shadow-[0_18px_60px_rgba(5,9,20,0.55)] backdrop-blur-2xl">
+        {[
+          ["#projects", "Projeler"],
+          ["#playable", "Vitrin"],
+          ["#contact", "İletişim"],
+        ].map(([href, label]) => (
+          <a
+            key={label}
+            href={href}
+            className="flex-1 rounded-2xl px-3 py-3 text-center text-sm font-medium text-slate-100 transition hover:bg-white/[0.08]"
+          >
+            {label}
+          </a>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 export default function EnesGameDevPortfolio() {
   const [activeProject, setActiveProject] = useState(0);
   const safeActiveIndex = Math.max(0, Math.min(activeProject, publishedProjects.length - 1));
   const selectedProject = useMemo(() => publishedProjects[safeActiveIndex], [safeActiveIndex]);
 
   return (
-    <div className="min-h-screen overflow-x-hidden bg-[#07111f] text-slate-100">
+    <div className="min-h-screen overflow-x-hidden bg-[#07111f] pb-24 text-slate-100 md:pb-0">
       <div className="pointer-events-none absolute inset-0 overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(56,189,248,0.16),transparent_28%),radial-gradient(circle_at_80%_12%,rgba(139,92,246,0.18),transparent_24%),radial-gradient(circle_at_50%_85%,rgba(245,158,11,0.12),transparent_28%),linear-gradient(180deg,#081120_0%,#0b1630_55%,#08111f_100%)]" />
         <div className="absolute inset-0 opacity-[0.18] [background-image:linear-gradient(rgba(255,255,255,0.06)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.06)_1px,transparent_1px)] [background-size:72px_72px]" />
@@ -613,8 +636,8 @@ export default function EnesGameDevPortfolio() {
         <FloatingOrb className="bottom-12 left-[28%] h-64 w-64" colorClass="bg-amber-300/14" duration={22} />
       </div>
 
-      <header className="sticky top-0 z-50 border-b border-white/10 bg-[#091427]/65 backdrop-blur-2xl">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
+      <header className="sticky top-0 z-50 border-b border-white/10 bg-[#091427]/75 backdrop-blur-2xl">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3">
             <div className="flex h-11 w-11 items-center justify-center rounded-2xl border border-cyan-300/15 bg-gradient-to-br from-cyan-300/15 via-white/5 to-violet-400/10 text-cyan-100">
               <GamepadIcon className="h-5 w-5" />
@@ -632,7 +655,7 @@ export default function EnesGameDevPortfolio() {
             <a href="#contact" className="transition hover:text-cyan-100">İletişim</a>
           </nav>
 
-          <Button asChild className="rounded-2xl border-0 bg-gradient-to-r from-cyan-400 to-violet-500 text-slate-950 shadow-[0_10px_30px_rgba(56,189,248,0.3)] hover:opacity-95">
+          <Button asChild className="rounded-2xl border-0 bg-gradient-to-r from-cyan-400 to-violet-500 px-4 text-slate-950 shadow-[0_10px_30px_rgba(56,189,248,0.3)] hover:opacity-95 sm:px-5">
             <a href={profile.resume}>CV İndir</a>
           </Button>
         </div>
@@ -643,20 +666,20 @@ export default function EnesGameDevPortfolio() {
           variants={containerVariants}
           initial="hidden"
           animate="show"
-          className="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-6 pb-20 pt-16 lg:grid-cols-[1.08fr_0.92fr] lg:px-8 lg:pt-24"
+          className="mx-auto grid max-w-7xl grid-cols-1 gap-8 px-4 pb-12 pt-10 sm:px-6 lg:grid-cols-[1.08fr_0.92fr] lg:gap-10 lg:px-8 lg:pb-16 lg:pt-20"
         >
-          <motion.div variants={fadeUp} className="space-y-8">
+          <motion.div variants={fadeUp} className="space-y-7">
             <Badge className="rounded-full border border-cyan-300/20 bg-cyan-300/10 px-4 py-1 text-cyan-100">
               {profile.role}
             </Badge>
 
-            <div className="space-y-5">
-              <h1 className="max-w-4xl text-4xl font-semibold leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl">
+            <div className="space-y-4">
+              <h1 className="max-w-4xl text-3xl font-semibold leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl">
                 Fikri oyuna çeviren,
                 <span className="bg-gradient-to-r from-cyan-200 via-white to-violet-200 bg-clip-text text-transparent"> sistemi güvenli kuran </span>
                 ve store’a taşıyan geliştirici.
               </h1>
-              <p className="max-w-2xl text-base leading-8 text-slate-300/85 sm:text-lg">
+              <p className="max-w-2xl text-sm leading-7 text-slate-300/85 sm:text-lg sm:leading-8">
                 {profile.shortBio}
               </p>
             </div>
@@ -669,7 +692,7 @@ export default function EnesGameDevPortfolio() {
                 </a>
               </Button>
               <Button asChild size="lg" variant="outline" className="rounded-2xl border-white/15 bg-white/[0.04] text-slate-100 hover:bg-white/[0.08]">
-                <a href="#playable">Teknik Vitrin</a>
+                <a href="#contact">İletişime Geç</a>
               </Button>
             </div>
 
@@ -678,7 +701,7 @@ export default function EnesGameDevPortfolio() {
                 <motion.div key={item.label} variants={fadeUp} whileHover={{ y: -6, scale: 1.01 }}>
                   <GlassCard className="rounded-3xl bg-gradient-to-br from-white/[0.09] to-white/[0.04]">
                     <CardContent className="p-5">
-                      <div className="text-2xl font-semibold text-white">{item.value}</div>
+                      <div className="text-xl font-semibold text-white sm:text-2xl">{item.value}</div>
                       <div className="mt-1 text-sm text-slate-300/70">{item.label}</div>
                     </CardContent>
                   </GlassCard>
@@ -698,7 +721,118 @@ export default function EnesGameDevPortfolio() {
           </motion.div>
         </motion.section>
 
-        <motion.section id="about" variants={containerVariants} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.16 }} className="mx-auto max-w-7xl px-6 py-12 lg:px-8">
+        <motion.section id="projects" variants={containerVariants} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.12 }} className="scroll-mt-28 mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
+          <SectionHeading
+            eyebrow="Yayınlanan işler"
+            title="İlk kaydırmada görünen vitrin"
+            description="Siteye giren kişinin çok aşağı inmeden yayınlanan oyunları, rollerimi ve mağaza linklerini görebilmesi için vitrin bölümü hero’nun hemen altına taşındı."
+          />
+
+          <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
+            {publishedProjects.map((project, index) => (
+              <motion.div key={project.title} variants={fadeUp} whileHover={{ y: -10 }} className="h-full">
+                <GlassCard className="h-full overflow-hidden">
+                  <CardContent className="p-0">
+                    <ProjectCover project={project} />
+                    <div className="space-y-4 p-5 sm:p-6">
+                      <div className="flex flex-wrap items-center justify-between gap-4">
+                        <div>
+                          <h3 className="text-xl font-semibold text-white">{project.title}</h3>
+                          <p className="mt-1 text-sm text-slate-300/70">{project.role} • {project.genre}</p>
+                        </div>
+                        <Badge className="rounded-full border border-white/10 bg-white/[0.08] text-slate-100">{project.year}</Badge>
+                      </div>
+
+                      <p className="text-sm leading-6 text-slate-300/78">{project.description}</p>
+
+                      <div className="flex flex-wrap gap-2">
+                        {project.systems.slice(0, 4).map((system) => (
+                          <Badge key={system} variant="secondary" className="rounded-full border border-white/10 bg-white/[0.06] text-slate-100">
+                            {system}
+                          </Badge>
+                        ))}
+                      </div>
+
+                      {project.links.length > 0 ? (
+                        <div className="flex flex-wrap gap-3 pt-1">
+                          {project.links.slice(0, 2).map((link) => (
+                            <Button key={link.label} asChild variant="outline" className="rounded-2xl border-white/15 bg-white/[0.04] text-slate-100 hover:bg-white/[0.08]">
+                              <a href={link.url} target="_blank" rel="noreferrer">
+                                {link.label}
+                                <ExternalLinkIcon className="ml-2 h-4 w-4" />
+                              </a>
+                            </Button>
+                          ))}
+                        </div>
+                      ) : null}
+
+                      <div className="flex flex-wrap gap-3 pt-1">
+                        <Button className="rounded-2xl border-0 bg-gradient-to-r from-cyan-400 to-violet-500 text-slate-950 hover:opacity-95" onClick={() => setActiveProject(index)}>
+                          Teknik Vitrinde Aç
+                        </Button>
+                      </div>
+                    </div>
+                  </CardContent>
+                </GlassCard>
+              </motion.div>
+            ))}
+          </div>
+        </motion.section>
+
+        <motion.section id="playable" variants={containerVariants} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.12 }} className="scroll-mt-28 mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-10">
+          <SectionHeading
+            eyebrow="Teknik vitrin"
+            title="Seçilen proje için store / case study / demo alanı"
+            description="Şimdilik canlı demo yerine güvenli ve profesyonel bir vitrin yapısı kullanılıyor. Sonraki aşamada WebGL, gameplay video veya detaylı case study eklenebilir."
+          />
+
+          <div className="grid grid-cols-1 gap-6 lg:grid-cols-[0.38fr_0.62fr]">
+            <motion.div variants={fadeUp}>
+              <GlassCard>
+                <CardContent className="p-5">
+                  <div className="mb-4 text-sm text-cyan-100/80">Projeler</div>
+                  <div className="space-y-3">
+                    {publishedProjects.map((project, index) => (
+                      <motion.button
+                        key={project.title}
+                        onClick={() => setActiveProject(index)}
+                        whileHover={{ x: 4 }}
+                        className={`w-full rounded-2xl border p-4 text-left transition ${safeActiveIndex === index ? "border-cyan-300/25 bg-cyan-300/10" : "border-white/10 bg-white/[0.04] hover:bg-white/[0.08]"}`}
+                      >
+                        <div className="flex items-center justify-between gap-3">
+                          <div>
+                            <div className="font-medium text-white">{project.title}</div>
+                            <div className="mt-1 text-sm text-slate-300/70">{project.role}</div>
+                          </div>
+                          <PlayIcon className="h-4 w-4 text-cyan-100" />
+                        </div>
+                      </motion.button>
+                    ))}
+                  </div>
+                </CardContent>
+              </GlassCard>
+            </motion.div>
+
+            <motion.div variants={fadeUp}>
+              <GlassCard className="overflow-hidden">
+                <CardContent className="p-0">
+                  <div className="flex items-center justify-between border-b border-white/10 px-5 py-4">
+                    <div>
+                      <div className="text-lg font-semibold text-white">{selectedProject.title}</div>
+                      <div className="text-sm text-slate-300/75">{selectedProject.role}</div>
+                    </div>
+                    <Badge className="rounded-full border border-white/10 bg-white/[0.08] text-slate-100">CASE STUDY READY</Badge>
+                  </div>
+                  <motion.div key={selectedProject.title} initial={{ opacity: 0, scale: 0.98 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.35 }}>
+                    <PlayablePreview project={selectedProject} />
+                  </motion.div>
+                </CardContent>
+              </GlassCard>
+            </motion.div>
+          </div>
+        </motion.section>
+
+        <motion.section id="about" variants={containerVariants} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.16 }} className="scroll-mt-28 mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8 lg:py-12">
           <SectionHeading
             eyebrow="Hakkımda"
             title="Sadece oyun yapan değil, ürünü baştan sona taşıyan geliştirici"
@@ -757,7 +891,7 @@ export default function EnesGameDevPortfolio() {
           </div>
         </motion.section>
 
-        <motion.section variants={containerVariants} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.16 }} className="mx-auto max-w-7xl px-6 py-4 lg:px-8">
+        <motion.section variants={containerVariants} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.16 }} className="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
             {highlights.map((item) => {
               const Icon = item.icon;
@@ -778,7 +912,7 @@ export default function EnesGameDevPortfolio() {
           </div>
         </motion.section>
 
-        <motion.section variants={containerVariants} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.16 }} className="mx-auto max-w-7xl px-6 py-10 lg:px-8">
+        <motion.section variants={containerVariants} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.16 }} className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
           <SectionHeading
             eyebrow="Çalışma disiplini"
             title="Hızlı üretim, modüler sistem, gerçek shipping"
@@ -805,7 +939,7 @@ export default function EnesGameDevPortfolio() {
           </div>
         </motion.section>
 
-        <motion.section variants={containerVariants} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.16 }} className="mx-auto max-w-7xl px-6 py-8 lg:px-8">
+        <motion.section variants={containerVariants} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.16 }} className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
           <SectionHeading
             eyebrow="Teknik harita"
             title="Hangi yetkinliği hangi projede nasıl kullandım?"
@@ -835,113 +969,7 @@ export default function EnesGameDevPortfolio() {
           </div>
         </motion.section>
 
-        <motion.section id="projects" variants={containerVariants} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.12 }} className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
-          <SectionHeading
-            eyebrow="Yayınlanan işler"
-            title="Gerçek ürünler, gerçek roller, gerçek sistemler"
-            description="Yayınlanan oyunlarımda üstlendiğim roller, kurduğum sistemler ve mağazaya giden ürün sorumluluğu bu bölümde görünür hale geliyor."
-          />
-
-          <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
-            {publishedProjects.map((project, index) => (
-              <motion.div key={project.title} variants={fadeUp} whileHover={{ y: -10 }} className="h-full">
-                <GlassCard className="h-full overflow-hidden">
-                  <CardContent className="p-0">
-                    <ProjectCover project={project} />
-                    <div className="space-y-4 p-6">
-                      <div className="flex flex-wrap items-center justify-between gap-4">
-                        <div>
-                          <h3 className="text-xl font-semibold text-white">{project.title}</h3>
-                          <p className="mt-1 text-sm text-slate-300/70">{project.role} • {project.genre}</p>
-                        </div>
-                        <Badge className="rounded-full border border-white/10 bg-white/[0.08] text-slate-100">{project.year}</Badge>
-                      </div>
-
-                      <p className="text-sm leading-6 text-slate-300/78">{project.description}</p>
-
-                      <div className="flex flex-wrap gap-2">
-                        {project.systems.slice(0, 6).map((system) => (
-                          <Badge key={system} variant="secondary" className="rounded-full border border-white/10 bg-white/[0.06] text-slate-100">
-                            {system}
-                          </Badge>
-                        ))}
-                      </div>
-
-                      <div className="flex flex-wrap gap-3 pt-2">
-                        <Button className="rounded-2xl border-0 bg-gradient-to-r from-cyan-400 to-violet-500 text-slate-950 hover:opacity-95" onClick={() => setActiveProject(index)}>
-                          Teknik Vitrinde Aç
-                        </Button>
-                        {project.links.slice(0, 1).map((link) => (
-                          <Button key={link.label} asChild variant="outline" className="rounded-2xl border-white/15 bg-white/[0.04] text-slate-100 hover:bg-white/[0.08]">
-                            <a href={link.url} target="_blank" rel="noreferrer">
-                              {link.label}
-                              <ExternalLinkIcon className="ml-2 h-4 w-4" />
-                            </a>
-                          </Button>
-                        ))}
-                      </div>
-                    </div>
-                  </CardContent>
-                </GlassCard>
-              </motion.div>
-            ))}
-          </div>
-        </motion.section>
-
-        <motion.section id="playable" variants={containerVariants} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.12 }} className="mx-auto max-w-7xl px-6 py-8 lg:px-8">
-          <SectionHeading
-            eyebrow="Teknik vitrin"
-            title="Seçilen proje için store / case study / demo alanı"
-            description="Şimdilik canlı demo yerine güvenli ve profesyonel bir vitrin yapısı kullanılıyor. Sonraki aşamada WebGL, gameplay video veya detaylı case study eklenebilir."
-          />
-
-          <div className="grid grid-cols-1 gap-6 lg:grid-cols-[0.38fr_0.62fr]">
-            <motion.div variants={fadeUp}>
-              <GlassCard>
-                <CardContent className="p-5">
-                  <div className="mb-4 text-sm text-cyan-100/80">Projeler</div>
-                  <div className="space-y-3">
-                    {publishedProjects.map((project, index) => (
-                      <motion.button
-                        key={project.title}
-                        onClick={() => setActiveProject(index)}
-                        whileHover={{ x: 4 }}
-                        className={`w-full rounded-2xl border p-4 text-left transition ${safeActiveIndex === index ? "border-cyan-300/25 bg-cyan-300/10" : "border-white/10 bg-white/[0.04] hover:bg-white/[0.08]"}`}
-                      >
-                        <div className="flex items-center justify-between gap-3">
-                          <div>
-                            <div className="font-medium text-white">{project.title}</div>
-                            <div className="mt-1 text-sm text-slate-300/70">{project.role}</div>
-                          </div>
-                          <PlayIcon className="h-4 w-4 text-cyan-100" />
-                        </div>
-                      </motion.button>
-                    ))}
-                  </div>
-                </CardContent>
-              </GlassCard>
-            </motion.div>
-
-            <motion.div variants={fadeUp}>
-              <GlassCard className="overflow-hidden">
-                <CardContent className="p-0">
-                  <div className="flex items-center justify-between border-b border-white/10 px-5 py-4">
-                    <div>
-                      <div className="text-lg font-semibold text-white">{selectedProject.title}</div>
-                      <div className="text-sm text-slate-300/75">{selectedProject.role}</div>
-                    </div>
-                    <Badge className="rounded-full border border-white/10 bg-white/[0.08] text-slate-100">CASE STUDY READY</Badge>
-                  </div>
-                  <motion.div key={selectedProject.title} initial={{ opacity: 0, scale: 0.98 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.35 }}>
-                    <PlayablePreview project={selectedProject} />
-                  </motion.div>
-                </CardContent>
-              </GlassCard>
-            </motion.div>
-          </div>
-        </motion.section>
-
-        <motion.section variants={containerVariants} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.12 }} className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
+        <motion.section variants={containerVariants} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.12 }} className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
           <motion.div variants={fadeUp}>
             <GlassCard className="rounded-[32px] border-white/15 bg-gradient-to-br from-white/[0.07] via-white/[0.045] to-violet-400/[0.05]">
               <CardContent className="grid grid-cols-1 gap-6 p-8 lg:grid-cols-[1fr_0.9fr] lg:p-10">
@@ -975,7 +1003,7 @@ export default function EnesGameDevPortfolio() {
           </motion.div>
         </motion.section>
 
-        <motion.section id="contact" variants={containerVariants} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.12 }} className="mx-auto max-w-7xl px-6 pb-24 pt-4 lg:px-8">
+        <motion.section id="contact" variants={containerVariants} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.12 }} className="scroll-mt-28 mx-auto max-w-7xl px-4 pb-32 pt-4 sm:px-6 lg:px-8 lg:pb-24">
           <div className="grid grid-cols-1 gap-6 lg:grid-cols-[0.9fr_1.1fr]">
             <motion.div variants={fadeUp}>
               <GlassCard>
@@ -1021,6 +1049,8 @@ export default function EnesGameDevPortfolio() {
           </div>
         </motion.section>
       </main>
+
+      <MobileDock />
     </div>
   );
 }
